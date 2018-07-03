@@ -1,0 +1,10 @@
+com\airefrescodecolombia\airefrescoapp\managedbeans\AirefrescoBean.class
+com\airefrescodecolombia\airefrescoapp\servicesimpl\ServiciosAirefrescoImpl.class
+com\airefrescodecolombia\airefrescoapp\entities\Usuario.class
+com\airefrescodecolombia\airefrescoapp\mybatis\mappers\UsuarioMapper.class
+com\airefrescodecolombia\airefrescoapp\dao\UsuarioDAO.class
+com\airefrescodecolombia\airefrescoapp\services\ServiciosAirefrescoApp.class
+com\airefrescodecolombia\airefrescoapp\dao\PersistenceException.class
+com\airefrescodecolombia\airefrescoapp\mybatis\MyBATISUsuarioDAO.class
+com\airefrescodecolombia\airefrescoapp\services\ServiciosAirefrescoAppFactory$1.class
+com\airefrescodecolombia\airefrescoapp\services\ServiciosAirefrescoAppFactory.class

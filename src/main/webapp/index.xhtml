@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <link rel="icon" type="image/png" href="resources/imagenes/soporte/icono.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> 
+        <h:outputStylesheet library="StylesApp" name="tablet.css" /> 
+        <h:outputStylesheet library="StylesApp" name="movile.css" /> 
+        <h:outputStylesheet library="StylesApp" name="desktop.css" /> 
+        <title>airefresco de Colombia Ltda</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <h:outputScript library="scripts" name="app.js" />
+    </h:head>
+    <h:body>
+        <h:form id="main">
+            <center>
+                <img id="anim" src="resources/imagenes/soporte/menuAnim1.gif"/> 
+                <div id="buttonMenuR"/>
+                <div class="menuBar">     
+                    <div id="menu">
+                        <li><a class="sel menuOp" href="inicio.xhtml" target="main">Inicio</a></li> 
+                        <li><a class="des menuOp" href="servicios.xhtml" target="main">Servicios</a></li> 
+                        <li><a class="des menuOp" href="portafolio.xhtml" target="main">Portafolio</a></li> 
+                        <li><a class="des menuOp" href="equipos.xhtml" target="main">Equipos</a></li> 
+                    </div>
+                </div>  
+                <div class="body">
+                    <center>
+                        <div id="loadingPage">
+                            <img id="loading" src="resources/imagenes/soporte/loadingPage.gif" onmouse="hover(this)" onmouseout="leave(this)"/>
+                             <p>cargando...</p>
+                        </div>  
+                        <iframe id="pg" src="inicio.xhtml" scrolling="no" name="main" class="pageFrame" onload="cargado()"/> 
+                        <br/>
+                        <div class="footer">            
+                            <p class="lab">© Copyright 2017 Airefresco de Colombia Ltda |</p><p class="lab"> Creado por airefresco</p>
+                        </div>
+                    </center>
+                </div>
+            </center>
+        </h:form>
+    </h:body>
+</html>
+

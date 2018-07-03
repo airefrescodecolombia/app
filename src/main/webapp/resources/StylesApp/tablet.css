@@ -1,0 +1,63 @@
+/* 
+    Created on : Jul 17, 2017, 12:45:13 PM
+    Author     : ingenieria Airefresco de Colombia - Jefferson David Castañeda Carreño
+*/
+@media only screen and (min-width: 768px) { 
+    body{
+        background-image: url("../resources/imagenes/soporte/backgroundResponsive.jpg");  
+    }
+
+    li{
+        display: block;
+    }
+
+    #menu{
+        top: 100%;
+        right: 17%;
+        display: none;
+    }
+    
+    #anim{
+        left: 17%;
+    }
+
+    #buttonMenuR{
+        display: block;
+        z-index: 4;
+        top: 2%;
+        height: 7%;
+        width: 6%;
+        right: 17%;
+    }
+    
+    #buttonMenuR:hover{
+        background-image: url("../resources/imagenes/soporte/menuResponsiveHover.png");
+        -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+    }
+    
+    .body{
+        top: 9%;
+    }
+    
+    .pageFrame{
+        width: 100%;
+    }
+
+    #loadingPage{
+        top: 13%;
+        width: 100%;
+        left: 0%;
+    }
+    
+    .lab{
+        display: block;
+    }   
+
+}
+
+
+
+

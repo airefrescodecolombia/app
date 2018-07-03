@@ -1,0 +1,255 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 18, 2017, 9:41:02 AM
+    Author     : airefresco_1
+*/
+html{
+    font-size: 2vw;
+    font-family: arial;
+}
+
+body{
+    margin:0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    color:white;
+    font-size: 135%;
+    width: 100%;
+    padding: 0.7vw;
+    background-color: #29b1ff;
+}
+
+.hh1{
+    color:white;
+    font-size: 135%;
+    width: 100%;
+    padding: 0.5vw;
+    background-color: #242424;
+}
+
+h2{
+    color: white;
+    font-size: 130%;
+}
+
+h3{
+    color: white;
+    font-size: 90%;   
+}
+
+p{
+    font-size: 90%;
+    padding: 2vw;
+}
+
+li{
+    font-size: 75%; 
+}
+
+.lightbox{
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.slideShow{
+    width:100%;
+}
+
+#slideBack{
+    width:100%;
+    z-index: -3;
+}
+
+#imgpress{
+    position: absolute;
+    width:100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    /*animation for fading */
+    -webkit-animation-name: fundido;
+    -webkit-animation-duration: 1s;
+    -moz-animation-name: fundido;
+    -moz-animation-duration: 1s;
+    -ms-animation-name: fundido;
+    -ms-animation-duration: 1s;
+    animation-name: fundido;
+    animation-duration: 1s;
+}
+
+#sab{
+    position: absolute;
+    z-index: 4;
+    right: 3%;
+    top: 1vh;
+    font-family: arial;
+    color: darkblue;
+}
+
+.doot{
+    height: 2vw;
+    width: 2vw;
+    margin: 0 0.3vw;
+    border-radius: 50%;  
+    display: inline-block;
+}
+
+.doot:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+.deactiDot{
+    background-color: gray;
+}
+
+.activeDot{
+    background-color: black;
+}
+
+.arrow {
+    padding: 1vw;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    font-size: 224%;
+    opacity: 0.4;
+}
+
+
+.arrow:hover{
+    color: white;
+    opacity: 0.6;
+    background-color: black;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#indicador{
+    position: absolute;
+    font-family: fantasy;
+    top: 1%;
+    left: 2%;
+    color: white;
+}
+
+.sec{
+    width:100%;
+}
+
+.boxText{
+    padding-left: 1.8vw;
+    float: left;
+    color: black;
+    font-size: 90%;
+    align-content: center;
+    
+}
+
+.boxCorp{
+    width: 33%;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.boxCorp p,h1{
+    margin: 0px;
+}
+
+#ne{
+    width: 60%;
+    margin-left: 1vw;
+}
+
+#ne p{
+    margin-left: 5vw;
+    
+}
+
+#enfoque{
+    display:flex;
+}
+
+#contacto{
+    margin-left: 2%;
+    width: 34%;
+    padding: 2vw;
+    color: white;
+    background-image: url("../resources/imagenes/soporte/fondoFooter.png");
+    background-size: 100% 100%;
+}
+
+#contacto p,li,ul{
+    padding: 0px;
+    margin-left: 1vh;
+    color: gainsboro;
+}
+.emm{
+    color: #29b1ff;
+    text-decoration: underline;
+    font-size: 80%;
+}
+
+@media screen and (max-width: 900px){
+    .boxText{
+        padding-left: 0%;
+    }
+    
+    .boxCorp{
+        width: 100%;
+    }
+    
+    #ne{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    #contacto{
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+}
+
+/**/
+@keyframes fundido {
+  from {opacity: 0.2} 
+  to {opacity: 1}
+}
+
+@-webkit-keyframes fundido {
+  from {opacity: 0.2} 
+  to {opacity: 1}
+}
+
+@-moz-keyframes fundido {
+  from {opacity: 0.2} 
+  to {opacity: 1}
+}
+
+@-ms-keyframes fundido {
+  from {opacity: 0.2} 
+  to {opacity: 1}
+}
+
+@-0-keyframes fundido {
+  from {opacity: 0.2} 
+  to {opacity: 1}
+}

@@ -1,0 +1,9 @@
+/* 
+    Created on : Jul 17, 2017, 12:45:13 PM
+    Author     : ingenieria Airefresco de Colombia - Jefferson David Castañeda Carreño
+*/
+@media only screen and (max-width: 768px) { 
+    body{
+        background-color: red;
+    }
+}

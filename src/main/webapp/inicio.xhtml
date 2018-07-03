@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      >
+    <h:head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <h:outputStylesheet library="StylesApp" name="styleotherpages.css" />  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <h:outputScript library="scripts" name="app.js" />
+    </h:head>
+    <h:body>
+        <div class="lightbox"/>
+        <div class="slideShow">
+            <img id="slideBack" src="resources/imagenes/slideprincipal/backslide.png"/> 
+            <img id="imgpress" src="resources/imagenes/slideprincipal/1.png"/>
+            <a id="sab" style="text-decoration: none" href="showMore.html">Saber más...</a>
+            <div style="width:100%; text-align: center">
+                <span class="activeDot doot" id="s1"/>                    
+                <span class="deactiDot doot" id="s2"/>
+                <span class="deactiDot doot" id="s3"/>
+                <span class="deactiDot doot" id="s4"/>
+            </div>
+        </div>
+        <div class="sec" id="nuestraEmpresa">
+            <div class="boxText" id="ne">
+                <center><h1>Nuestra Empresa</h1></center>
+                <p style="text-align: justify">
+                    Somos una empresa con amplia experiencia de 14 años en el mercado del Aire Acondicionado 
+                    y nuestro compromiso es contribuir al bienestar y confort ambiental de los diferentes recintos, 
+                    proporcionando un entorno agradable y fresco. Por esta razón nuestro equipo de talento humano 
+                    está conformado por un personal altamente calificado el cual está dispuesto a asesorarle y 
+                    brindarle apoyo prestando el servicio de Diseño, Suministro, instalación, Mantenimiento y 
+                    Reparación garantizando el correspondiente soporte técnico post-venta. Atendemos en a nivel 
+                    Nacional, en ciudades como: Barranquilla, Cartagena, Santa Marta, Pereira, Armenia, Medellín, 
+                    Cali, Popayán, Nariño, Ibagué y Cundinamarca
+                </p>
+            </div>
+            <div class="boxText" id="contacto">
+                <h2><b>Contáctanos</b></h2>
+                <p style="margin-left: 5%">Estamos para ayudarte</p>
+                <h3>Telefono</h3>
+                <ul>
+                    <li>810 7304</li>
+                    <li>375 0731</li>
+                </ul>
+                <h3>Celular</h3>
+                <ul>
+                    <li>313 466 3398</li>
+                    <li>312 562 7059</li>
+                </ul>
+                <h3>Correo</h3>
+                <ul>
+                    <li>comercial.ech@airefrescodecolombia.com</li>
+                    <li>gerencia@airefrescodecolombia.com </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sec" id="institucional">
+            <div class="boxText boxCorp">
+                <img src="resources/imagenes/corpo/mision.png" style="width:100%; z-index: -1"/>
+                <center><h1 class="hh1">Nuestra Misión</h1></center>
+                <p>Prestar de manera optima los servicios de diseno, suministro, instalacion y mantenimiento
+                    preventivo y correctivo para los sistemas de aire acondicionado y ventilacion mecacnia.
+                </p>
+            </div>
+            <div class="boxText boxCorp">
+                <img src="resources/imagenes/corpo/valor.png" style="width:100%; z-index: -1"/>
+                <center><h1 class="hh1">Promesa de valor</h1></center>
+                <p>satisfacer las Necesidades de nuestros clientes, superando sus expectativas</p>
+            </div>
+            <div class="boxText boxCorp">
+                <img src="resources/imagenes/corpo/vision.png" style="width:100%; z-index: -1"/>  
+                <center><h1 class="hh1">Nuestra Visión</h1></center>          
+                <p>Para el 2020 airefresco de Colombia Ltda. sera con la ayuda de Dios y 
+                    el esfuerzo, profesionalismo y compromiso de sus integrantes, lider en acondicionamiento de aire a nivel nacional
+                </p>
+            </div>
+        </div>
+        <div class="sec">
+            <div class="boxText" id="enfoque">
+                <center><h1 class="hh1">Nuestro Enfoque</h1></center>
+                <img src="resources/imagenes/corpo/enfoque.png" style="width:100%;"/>
+                <p>
+                    Es resolver problemas de entorno - ambientales de forma integrada, teniendo en cuenta sus dimensiones ecológicas, 
+                    sociales, económicas y tecnológicas, con el objetivo de promover un desarrollo sostenible
+                </p>
+            </div>
+        </div>
+    </h:body>
+</html>
+
+<!--
+<a id="-1" class="arrow" style="left:1%">&#10094;</a>
+<a id="1" class="arrow" style="right:1%">&#10095;</a>
+<p id="indicador">1/8</p>
+-->

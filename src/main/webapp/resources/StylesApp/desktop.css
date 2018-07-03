@@ -1,0 +1,164 @@
+/* 
+    Created on : Jul 17, 2017, 12:45:13 PM
+    Author     : ingenieria Airefresco de Colombia - Jefferson David Castañeda Carreño
+*/
+html{
+    font-size: 2vw;
+    font-family: arial;
+}
+
+body{
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    letter-spacing: 0.1vw;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.menuBar{
+    position: absolute;
+    height: 10%;
+    left: 0px;
+    width: 100%;
+    background-image: url("../resources/imagenes/soporte/fondoMenu.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#menu{
+    position: inherit;
+    z-index: inherit;
+}
+
+a{
+    font-size: 60%;
+    text-decoration: none;
+    float: left;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.menuOp:hover{
+    color: #2ECCFA;
+}
+
+.des {
+    color: #29b1ff;
+}
+
+.sel {
+    color: white;
+}
+
+#anim{
+    position: absolute;
+    top:1%;
+    z-index: 3;
+    width:13%;
+}
+
+#buttonMenuR{
+    position: absolute;
+    background-image: url("../resources/imagenes/soporte/menuResponsive.png");
+    background-size: 100% 100%;
+}
+
+.body{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+}
+
+.pageFrame{
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#loadingPage{
+    position: absolute;
+    align-content: center;
+    background-color: white;
+}
+
+#loading{
+    width: 50%;
+}
+
+.footer{
+    padding: 0.5em;
+    background-image: url("../resources/imagenes/soporte/fondoFooter.png");
+    background-size: 100% 100%;
+}
+
+#log{
+    font-size:95%;
+    font-family: vivaldi;
+    color: white;
+    font-style: oblique;
+    text-shadow: 0px 0px 10px black;
+}
+
+u{
+    color: #29b1ff;
+    text-decoration: none;
+}
+
+.lab{
+    font-size:42%;
+    color: white;
+}
+
+
+@media only screen and (min-width: 1200px) {     
+
+    body{
+        background-image: url("../resources/imagenes/soporte/background.png");  
+    }
+    
+    li{
+        display: inline;
+    }
+
+    #menu{
+        top: 65%;
+        right: 20%;
+        display: block;
+    }
+    
+    #anim{
+        left: 20%;
+    }
+
+    #buttonMenuR{
+        display: none;
+        z-index: -1;
+        height: 0px;
+    }
+    
+    .body{
+        top: 12%;
+    }
+    
+    .pageFrame{
+        width: 60%;
+    }
+
+    #loadingPage{
+        top: 15%;
+        width: 80%;
+        left: 10%;
+    }
+
+    .lab{
+        display: inline;
+    }    
+ 
+}
+

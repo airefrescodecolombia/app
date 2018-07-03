@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>    
+    <typeAliases>
+        <typeAlias type="com.airefrescodecolombia.airefrescoapp.entities.Usuario" alias="Usuario"/>
+    </typeAliases>
+                                
+    <!--environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver" />
+                <property name="url" value="jdbc:mysql://localhost:3306/airefrescodb"/>
+                <property name="username" value="root" />
+                <property name="password" value="A952(i)5123(r)5678(e)4561(f)1234(r)4562(e)55210(s)02000(c)232121(0)o__154(8)d56548(e)_" />
+            </dataSource>
+        </environment>
+    </environments-->
+        
+    <mappers>
+        <mapper resource="mappers/UsuarioMapper.xml"></mapper>
+    </mappers> 
+</configuration>
